@@ -9,15 +9,15 @@ body{
 }
 
 .contenedor{
-    width: 80%; /* Tamaño fijo para el cuadrado */
-    height: 80%; /* Mismo valor que el ancho para que sea cuadrado */
-    margin: 30px auto; /* Centrado horizontal con espacio superior */
+    width: 90%; /* Tamaño fijo para el cuadrado */
+    height: 90%; /* Mismo valor que el ancho para que sea cuadrado */
+    margin: 20px auto; /* Centrado horizontal con espacio superior */
     padding: 20px;
     box-sizing: border-box;
-    background-color: #3498db; /* Color azul */
+    background-color: #4a5358; /* Color azul */
     /* Si quieres mantener el texto en rojo */
-    color: rgb(233, 13, 13);
+    color: rgb(255, 255, 255);
     /* Opcional: añadir sombra y bordes redondeados */
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
 }
