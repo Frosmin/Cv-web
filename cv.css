@@ -1,4 +1,23 @@
-.p1{
-    color: red;
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
 
+.contenedor{
+    width: 80%; /* Tamaño fijo para el cuadrado */
+    height: 80%; /* Mismo valor que el ancho para que sea cuadrado */
+    margin: 30px auto; /* Centrado horizontal con espacio superior */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #3498db; /* Color azul */
+    /* Si quieres mantener el texto en rojo */
+    color: rgb(233, 13, 13);
+    /* Opcional: añadir sombra y bordes redondeados */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
