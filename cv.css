@@ -80,6 +80,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+
 }
 
 .pie {
@@ -87,8 +88,12 @@ footer {
   /* height: 100%; */
   padding: 20px;
   box-sizing: border-box;
-  background-color: #ffffff;
-  color: #333333;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #070a2e;
+}
+.pie h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
 }
 
