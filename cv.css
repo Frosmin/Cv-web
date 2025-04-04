@@ -87,6 +87,11 @@ li {
   margin-bottom: 5px;
 }
 
+p{
+  color: #b8b8b8;
+  line-height: 1.5;
+}
+
 
 footer {
   width: 100%;
