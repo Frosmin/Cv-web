@@ -97,3 +97,11 @@ footer {
   margin: 0;
 }
 
+
+.navybar{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  position: fixed;
+  top : 0;
+}
