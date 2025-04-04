@@ -100,5 +100,23 @@
   </footer>
 
 
-  <script></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const enlaces = document.querySelectorAll('a[href^="#"]');
+    
+    enlaces.forEach(enlace => {
+        enlace.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            window.scrollTo({
+                top: targetElement.offsetTop - 80,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+</script>
 </html>
